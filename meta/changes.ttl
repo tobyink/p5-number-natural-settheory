@@ -23,5 +23,17 @@ dist:v_0-002
 	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Number-Natural-SetTheory-0.002.tar.gz> ;
 	dcs:changeset [
 		dcs:versus dist:v_0-001 ;
-		dcs:item   [ a dcs:Packaging ; rdfs:label "Use newe version of Module::Package::RDF" ] 
-		] .
+		dcs:item   [ a dcs:Packaging ; rdfs:label "Use newer version of Module::Package::RDF" ] 
+	] .
+
+dist:project :release dist:v_0-003 .
+dist:v_0-003
+	a               :Version ;
+	dc:issued       "2012-12-12"^^xsd:date ;
+	:revision       "0.003"^^xsd:string ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Number-Natural-SetTheory-0.003.tar.gz> ;
+	dcs:changeset [
+		dcs:versus dist:v_0-002 ;
+		dcs:item   [ a dcs:Change ; rdfs:label "'use base' instead of 'use parent'." ] ;
+		dcs:item   [ a dcs:Documentation ; rdfs:label "Document test suite." ] ;
+	] .
