@@ -19,7 +19,7 @@ BEGIN
 	$EXPORT_TAGS{'default'} = $EXPORT_TAGS{'standard'} = \@EXPORT;
 }
 
-use parent qw/Exporter/;
+use base qw/Exporter/;
 
 sub set_is_number
 {
@@ -218,7 +218,7 @@ Toby Inkster E<lt>tobyink@cpan.orgE<gt>.
 
 =head1 COPYRIGHT AND LICENCE
 
-This software is copyright (c) 2011 by Toby Inkster.
+This software is copyright (c) 2011-2012 by Toby Inkster.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
