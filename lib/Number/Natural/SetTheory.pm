@@ -11,7 +11,7 @@ our (@EXPORT, @EXPORT_OK, %EXPORT_TAGS);
 BEGIN
 {
 	$Number::Natural::SetTheory::AUTHORITY = 'cpan:TOBYINK';
-	$Number::Natural::SetTheory::VERSION   = '0.003';
+	$Number::Natural::SetTheory::VERSION   = '0.004';
 	
 	@EXPORT    = qw/ /;
 	@EXPORT_OK = qw/ set_is_number set_to_number number_to_set set_to_string /;
