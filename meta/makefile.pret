@@ -1,0 +1,8 @@
+@prefix deps:  <http://ontologi.es/doap-deps#> .
+
+<http://purl.org/NET/cpan-uri/dist/Number-Natural-SetTheory/project>
+	deps:runtime-requirement         [ deps:on "JSON"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "boolean"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "Exporter"^^deps:CpanId ];
+	deps:test-requirement            [ deps:on "Test::More 0.61"^^deps:CpanId ].
+
